@@ -1,0 +1,12 @@
+plugins {
+    id 'dev.leandro.songs.java-application-conventions'
+}
+
+dependencies {
+    implementation project(':model')
+    implementation project(':commons')
+}
+
+application {
+    mainClass = 'dev.leandro.songs.catalogue.App'
+}
