@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  kafka:
+    consumer:
+      group-id: catalogue
+      auto-offset-reset: earliest
+    bootstrap-servers: kafka:29092
+songs:
+  topic: songs
